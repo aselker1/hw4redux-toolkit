@@ -1,6 +1,7 @@
 import { setPosts } from "../slices/postSlice";
 
 
+
 const fetchAllPosts= (dispatch) => {
     console.log('1');
     fetch("https://jsonplaceholder.typicode.com/posts")

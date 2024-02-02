@@ -8,11 +8,16 @@ const Header = () => {
     <>
       <header>
         <div className={classes.nav}>
-          <h1>Website</h1>
+          
           <ul className={classes.navbar}>
             <li>
               <Link to="/" state={{ from: location.pathname }}>
                 Main
+              </Link>
+            </li>
+            <li>
+              <Link to="/users" state={{ from: location.pathname }}>
+                Users
               </Link>
             </li>
             <li>

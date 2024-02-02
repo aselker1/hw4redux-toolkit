@@ -7,20 +7,20 @@
 .container {
     width: 87%;
     margin: 100px auto;
-    height: 70vh;
+    height: 80vh;
     overflow-y: auto;
-    background-color: rgb(184, 184, 184);
+    background-color: #4992d3;
 }
 
 .posts {
-    width: 87%;
+    width: 90%;
     height: 20vh;
     margin: 50px auto;
-    border: 3px ridge black;
+    border: 3px ridge;
+    border-color: none;
     padding: 10px 30px;
     display: flex;
     justify-content: space-between;
-    max-height: calc(80vh - 6px);
     overflow-y: auto;
 }
 
@@ -34,10 +34,13 @@
     width: 100px;
     height: 20px;
     align-self: center;
+    color: blue;
 }
 
-h1,
-h2,
-p {
+.header{
     width: 100%;
+}
+body{
+    background-color: #296ca8;
+    color: #fff; 
 }

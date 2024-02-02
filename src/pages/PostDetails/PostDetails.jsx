@@ -1,3 +1,7 @@
+
+
+
+
 import React, { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import classes from "./PostDetails.module.css";
@@ -20,9 +24,11 @@ const PostDetails = () => {
       {post && (
         <>
           <button onClick={onBack}>Back</button>
+          <div className="header">
           <h1>{post.id} </h1>
           <h2>{post.title}</h2>
           <p>{post.body}</p>
+          </div>
         </>
       )}
     </div>
